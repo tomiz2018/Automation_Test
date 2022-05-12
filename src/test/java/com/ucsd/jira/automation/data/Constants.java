@@ -55,6 +55,11 @@ public final class Constants {
 
     public static final String PROJECTS_DIV = "//*[@id=\"jira-frontend\"]/div[1]/div[1]/div[1]/div[2]/div/div/div[2]/div/div/div/div[2]/a/div[2]/div";
 
+    // Create
+    public static final String CREATE_BTN = "//*[@id=\"createGlobalItem\"]/span";
+
+    // Your Work Btn //*[@id="ak-jira-navigation"]/header/nav/div[2]/div[1]/button/span[1]
+    public static final String WORK_BTN = "//*[@id=\"ak-jira-navigation\"]/header/nav/div[2]/div[1]/button/span[1]";
     private Constants() {
     }
 
