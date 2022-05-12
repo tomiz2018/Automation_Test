@@ -11,7 +11,7 @@ public final class Constants {
 
     // HEADING Elements
     public static final String LOGO_HEADING = "//h1[@id='logo']";
-    public static final String TEST_HEADING = "//h1[contains(text(),'test')]";
+    public static final String TEST_HEADING = "//*[@id=\"createGlobalItem\"]/span";
     public static final String NEW_TEST_HEADING = "//*[@id=\"dashboard-content\"]/div[1]/div/div[1]/h1";
 
     // ANCHOR Elements
@@ -45,8 +45,14 @@ public final class Constants {
     public static final String BOARDS_SEARCH_PREVIEW_DIV = "//div[@aria-label='Boards']";
     public static final String PROJECTS_SEARCH_PREVIEW_DIV = "//div[@aria-label='Projects']";
 
-    public static final String ISSUES_AND_FILTERS_DIV = "//*[@id='navigation-app']/div[1]/div[1]/div[1]/div[2]/div/div/div[2]/div/div/div/div[3]/a/div[2]/div";
-    public static final String DASHBOARD_DIV = "//*[@id=\"navigation-app\"]/div[1]/div[1]/div[1]/div[2]/div/div/div[2]/div/div/div/div[1]/a/div[2]/div";
+    public static final String ISSUES_AND_FILTERS_DIV = "//*[@id=\"ak-jira-navigation\"]/header/nav/div[2]/div[3]/button/span[1]";
+    public static final String ISSUES_AND_FILTERS_DIV1 = "//*[@id=\"ak-jira-navigation\"]/header/nav/div[2]/div[3]/button/span[1]";
+    public static final String ISSUES_AND_FILTERS_DIV2 = "//*[@id=\"jira\"]/div[17]/div[2]/div/span/div/div/div[2]/span/a[1]/span/span";
+
+    public static final String DASHBOARD_DIV = "//*[@id=\"ak-jira-navigation\"]/header/nav/div[2]/div[4]/button/span[1]";
+    public static final String DASHBOARD_DIV1 = "//*[@id=\"ak-main-content\"]/div/div/div[1]/div[1]/div[2]/div/a/span";
+
+
     public static final String PROJECTS_DIV = "//*[@id=\"jira-frontend\"]/div[1]/div[1]/div[1]/div[2]/div/div/div[2]/div/div/div/div[2]/a/div[2]/div";
 
     private Constants() {
