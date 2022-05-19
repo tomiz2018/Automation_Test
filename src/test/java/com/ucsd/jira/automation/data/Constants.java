@@ -46,8 +46,6 @@ public final class Constants {
     public static final String PROJECTS_SEARCH_PREVIEW_DIV = "//div[@aria-label='Projects']";
 
     public static final String ISSUES_AND_FILTERS_DIV = "//*[@id=\"ak-jira-navigation\"]/header/nav/div[2]/div[3]/button/span[1]";
-    public static final String ISSUES_AND_FILTERS_DIV1 = "//*[@id=\"ak-jira-navigation\"]/header/nav/div[2]/div[3]/button/span[1]";
-    public static final String ISSUES_AND_FILTERS_DIV2 = "//*[@id=\"jira\"]/div[17]/div[2]/div/span/div/div/div[2]/span/a[1]/span/span";
 
     public static final String DASHBOARD_DIV = "//*[@id=\"ak-jira-navigation\"]/header/nav/div[2]/div[4]/button/span[1]";
     public static final String DASHBOARD_DIV1 = "//*[@id=\"ak-main-content\"]/div/div/div[1]/div[1]/div[2]/div/a/span";
@@ -60,6 +58,28 @@ public final class Constants {
 
     // Your Work Btn //*[@id="ak-jira-navigation"]/header/nav/div[2]/div[1]/button/span[1]
     public static final String WORK_BTN = "//*[@id=\"ak-jira-navigation\"]/header/nav/div[2]/div[1]/button/span[1]";
+
+    // CreateTicketTest constants
+    public static final String CREATE_ISSUE = "//*[@id=\"createGlobalItem\"]/span";
+    public static final String INPUT_SUMMARY = "//*[@id=\"summary-field\"]";
+    public static final String CREATE_JIRA_BTN = "//*[@id=\"jira\"]/div[17]/div[3]/div/div[3]/div[2]/div/div/footer/button/span";
+    public static final String PROJECT = "//*[@id=\"ak-jira-navigation\"]/header/nav/div[2]/div[2]/div/button/span[1]";
+    public static final String RECENT_PROJECT = "//*[@id=\"jira\"]/div[17]/div[3]/div/span/div/div/div[1]/span/a[1]/span[2]/span[1]";
+    public static final String ISSUES = "//*[@id=\"ak-side-navigation\"]/div/div[1]/div/nav/div[2]/div/div/div/div/div[1]/div[1]/div[2]/a[1]/span[2]/span";
+    public static final String CREATED_JIRA = "//*[@id=\"ak-main-content\"]/div/div[3]/div[1]/div[2]/a[1]/div[2]";
+    public static final String HEADER_ACTION = "//*[@id=\"jira-issue-header-actions\"]/div/div/div[1]/div/div/button/span/span";
+    public static final String DELETE_BTN = "//*[@id=\"jira\"]/div[17]/div[4]/div/div/div[2]/div/div/div[4]/span/span/span";
+    public static final String DELETE_CONFIRM_BTN = "//*[@id=\"jira\"]/div[17]/div[4]/div/div[3]/div[2]/div/div/footer/div/div/button/span";
+
+    public static final String ALL_PROJECTS = "//*[@id=\"jira\"]/div[17]/div[3]/div/span/div/div/div[2]/span/a/span/span";
+
+    public static final String TARGET_PROJECT = "//*[@id=\"ak-main-content\"]/div/div/div[2]/div/table/tbody/tr[1]/td[2]/a/div/span";
+    // Test Search Box
+    public static final String SEARCH_BOX = "//*[@id=\"ak-jira-navigation\"]/header/div/div/div/div/div/div/div/div[1]/div/input";
+
+    public static final String SEARCH_BTN = "//*[@id=\"ak-jira-navigation\"]/header/div/div/div/div/div/div/div/div[1]/div/span[2]/span";
+
+    //*[@id="issue-create.ui.modal.create-form.type-picker.issue-type-select"]/div
     private Constants() {
     }
 
