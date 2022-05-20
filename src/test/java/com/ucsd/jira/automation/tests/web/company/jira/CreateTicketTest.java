@@ -34,6 +34,7 @@ public class CreateTicketTest extends JiraTestCase {
         WHEN("I create a new JIRA");
         webAction(Constants.CREATE_ISSUE); // Click the Create button at the homepage
         webAction(Constants.INPUT_SUMMARY, INPUT_TEXT); // Input the subject line of the ticket
+//        webAction(Constants.DROPDOWN,1); //*[@id="issue-create.ui.modal.create-form.type-picker.issue-type-select"]/div/div[2]/div
         webAction(Constants.CREATE_JIRA_BTN); // Click the create button
         redirect(Constants.HOME_URL); // Then go back the homepage
 

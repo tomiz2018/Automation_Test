@@ -46,7 +46,7 @@ public class BasicTest extends JiraTestCase {
 
 //        THEN("The expected pages are displayed");
 //        webAction(Constants.WORK_BTN);
-//
+//        //*[@id="issue-create.ui.modal.create-form.type-picker.issue-type-select"]/div/div[2]/div
 //        redirect(Constants.HOME_URL);
 
     }

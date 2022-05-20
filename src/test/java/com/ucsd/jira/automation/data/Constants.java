@@ -78,7 +78,7 @@ public final class Constants {
     public static final String SEARCH_BOX = "//*[@id=\"ak-jira-navigation\"]/header/div/div/div/div/div/div/div/div[1]/div/input";
 
     public static final String SEARCH_BTN = "//*[@id=\"ak-jira-navigation\"]/header/div/div/div/div/div/div/div/div[1]/div/span[2]/span";
-
+    public static final String DROPDOWN = "//*[@id=\"issue-create.ui.modal.create-form.type-picker.issue-type-select\"]/div/div[2]/div";
     //*[@id="issue-create.ui.modal.create-form.type-picker.issue-type-select"]/div
     private Constants() {
     }
